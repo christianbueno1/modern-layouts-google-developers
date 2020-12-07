@@ -1,0 +1,18 @@
+.blue {
+    background-color: rgb(140, 167, 207);
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr 1fr) ;
+    height: 100vh;
+    /* center */
+    /* place-items: center; */
+    justify-items: right;
+    align-items: flex-end;
+}
+.coral {
+    background-color: rgb(221, 179, 164);
+}
+.box {
+    border: 1px solid purple;
+}
